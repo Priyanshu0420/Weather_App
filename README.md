@@ -1,32 +1,26 @@
-# 🌦️ Weather App
+# 🌦️ Flutter Weather App
 
-A simple and responsive weather application that shows real-time weather information based on the user's current location. The app uses a weather API to fetch live data and display accurate weather details for the detected city.
+A simple and visually appealing **Flutter Weather Application** that allows users to get real-time weather information for any city. The app fetches live weather data using a weather API and updates the UI dynamically based on weather conditions.
 
 ---
 
 ## 🚀 Features
 
-- 📍 Automatically detects user's current location
-- 🌡️ Displays real-time temperature and weather conditions
-- ☁️ Shows city-based weather information
-- ⚡ Fast and lightweight
-- 📱 Responsive design
+- 🔍 Search weather by city/location name
+- 🌡️ Displays real-time temperature and weather details
+- 🎨 Dynamic background gradients based on weather conditions (rain, clear, etc.)
+- ⏳ Loading indicator while fetching data
+- ⚠️ Error handling with user-friendly messages
+- 📱 Clean and responsive UI
 
 ---
 
+## 🛠️ Technologies Used
 
+- **Language:** Dart
+- **Framework:** Flutter
+- **API:** Weather API (e.g., OpenWeatherMap)
+- **State Management:** Stateful Widgets
+- **HTTP Requests:** Async/Await
 
-## 📦 How It Works
-
-1. The app requests location access from the user.
-2. Using the Geolocation API, it detects the current city.
-3. Weather data is fetched from a weather API.
-4. The fetched data is displayed on the screen in real time.
-
----
-
-## 📌 How to Run the Project
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/weather-app.git
+--
